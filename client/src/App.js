@@ -5,6 +5,18 @@ import Home from './pages/Home';
 import Workouts from './pages/Workouts';
 import Planner from './pages/Planner';
 import { Routes, Route } from 'react-router-dom';
+import 'components/Header.css';
+import 'components/Footer.css';
+import 'pages/Home.css';
+import 'pages/Workouts.css';
+import 'pages/Planner.css';
+import 'pages/Planner.js';
+import 'pages/Workouts.js';
+import 'pages/Home.js';
+import 'components/Header.js';
+import 'components/Footer.js';
+import 'components/Nav.js';
+import 'components/Nav.css';
 
 import {ApolloClient,
   InMemoryCache,
