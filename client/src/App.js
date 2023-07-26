@@ -6,7 +6,6 @@ import Workouts from './pages/Workouts';
 import Planner from './pages/Planner';
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './CSS/Header.css';
 import './CSS/Footer.css';
 import './CSS/Home.css';
