@@ -6,11 +6,11 @@
   "main": "server.js",
 
   "scripts": {
-    "start": "node server.js",
+    "start": "node server --ignore client",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
     "build": "react-scripts build",
-    "install": "cd client && npm install",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "install": "cd client && npm install"
+
   },
   "keywords": [],
   "author": "",
